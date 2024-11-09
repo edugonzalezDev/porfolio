@@ -13,11 +13,11 @@ Este es el repositorio de mi portafolio personal creado con React. Aquí podrás
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/portfolio.git
+    git clone https://github.com/edugonzalezDev/porfolio.git
     ```
 2. Navega al directorio del proyecto:
     ```bash
-    cd portfolio
+    cd porfolio
     ```
 3. Instala las dependencias:
     ```bash
