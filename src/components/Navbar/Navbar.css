@@ -1,17 +1,10 @@
 .navbar {
-    background-color: black;
-    border-bottom: 1px solid #9b9b9b;
     display: flex;
+    gap: 20px;
     align-items: center;
-    padding: 10px 20px;
-    box-sizing: border-box;
 }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-}
+
 
 .navbar a:hover {
     color: #ccc;

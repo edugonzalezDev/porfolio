@@ -1,17 +1,15 @@
-import Menu from '../Menu';
-import './Navbar.css';
-
+import Menu from "../Menu";
+import "./Navbar.css";
+import UserNavCard from "../UserNavCard";
 const Navbar = () => {
-    return (
-        <>
-        <nav className="navbar">
+  return (
+    <>
+      <nav className="navbar">
         <Menu />
-            <ul className="navbar-list">
-                <li className="navbar-item">edugonzalez.dev</li>
-            </ul>
-        </nav>
-        </>
-    );
+        <UserNavCard />
+      </nav>
+    </>
+  );
 };
 
 export default Navbar;
