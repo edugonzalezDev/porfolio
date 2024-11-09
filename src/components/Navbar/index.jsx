@@ -1,14 +1,16 @@
+import Menu from '../Menu';
 import './Navbar.css';
 
 const Navbar = () => {
     return (
+        <>
         <nav className="navbar">
+        <Menu />
             <ul className="navbar-list">
-                <li className="navbar-item">Sobre mi</li>
-                <li className="navbar-item">Proyectos</li>
-                <li className="navbar-item">Formación</li>
+                <li className="navbar-item">edugonzalez.dev</li>
             </ul>
         </nav>
+        </>
     );
 };
 
