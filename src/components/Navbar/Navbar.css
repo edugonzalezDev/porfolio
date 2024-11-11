@@ -1,9 +1,7 @@
 .navbar {
     display: flex;
-    gap: 20px;
     align-items: center;
 }
-
 
 
 .navbar a:hover {

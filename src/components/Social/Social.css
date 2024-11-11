@@ -4,10 +4,10 @@
 }
 
 .social-icons a {
-    color: white;
+    color: var(--text-color);
     transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: #ccc;
+    color: var(--primary-color);
 }
