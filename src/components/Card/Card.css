@@ -1,6 +1,5 @@
 .card {
     background-color: var(--background-primary-color);
-    max-width: 384px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -23,8 +22,21 @@
     font-size: 1.25rem;
     font-weight: bold;
 }
-.card-image {
+.card-content {
     width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-description {
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.card-image {
+    max-width: 256px;
 }
 .card-body {
     padding: 16px;
@@ -37,3 +49,18 @@
     padding: 16px;
     text-align: right;
 }
+
+@media screen and (min-width: 544px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+      .card {
+          display: flex;
+      }
+
+  }
+  
+  @media screen and (min-width: 1012px) {
+
+  }

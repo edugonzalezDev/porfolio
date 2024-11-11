@@ -1,5 +1,5 @@
 .perfil {
-  max-width: 100%;
+  max-width: 90%;
   will-change: filter;
   transition: filter 300ms;
   border-radius: 50%;
