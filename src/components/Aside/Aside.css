@@ -1,0 +1,37 @@
+.perfil {
+  max-width: 100%;
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 50%;
+  border: 2px solid transparent; /* Ajusta el grosor del borde según sea necesario */
+  background: linear-gradient(
+      to right,
+      var(--primary-color),
+      var(--secondary-color),
+      var(--primary-color),
+      var(--secondary-color)
+    )
+    border-box;
+}
+.perfil:hover {
+  filter: drop-shadow(0 0 1em var(--secondary-color));
+}
+
+@media screen and (min-width: 544px) {
+  aside {
+    width: 220px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  aside {
+    width: 256px;
+  }
+}
+
+@media screen and (min-width: 1012px) {
+  aside {
+    width: 296px;
+  }
+}

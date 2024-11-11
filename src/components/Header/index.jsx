@@ -1,7 +1,7 @@
 import Navbar from "../Navbar"
 import Social from "../Social"
 import "./Header.css"
-const Header = () => {
+export const Header = () => {
   return (
     <header className="header">
         <Navbar />
@@ -9,5 +9,3 @@ const Header = () => {
     </header>
   )
 }
-
-export default Header

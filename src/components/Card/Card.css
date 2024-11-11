@@ -1,14 +1,14 @@
 .card {
     background-color: var(--background-primary-color);
-    max-width: 500px;
+    max-width: 384px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     justify-self: center;
     transition: all 0.3s ease;
     border: 1px solid var(--background-secondary-color);
-    padding: 2rem;
-    margin: 2rem;
+    padding: 1rem;
+    /* margin: 2rem; */
 }
 
 .card:hover {
